@@ -96,5 +96,6 @@ Need help, feedback, collaboration, or support with **PassSabi AI**? Feel free t
 </p>
 
 <p align="center">
+  followed you because i saw something interesting in your projects thanks for the support.
   ⭐ Thanks for visiting my profile
 </p>
