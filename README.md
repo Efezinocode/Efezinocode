@@ -86,7 +86,7 @@ Need help, feedback, collaboration, or support with **PassSabi AI**? Feel free t
 ## 🔗 Connect With Me
 
 - **GitHub:** https://github.com/Efezinocode
-- **Portfolio:** https://efezinouzezi.vercel.app
+- **Portfolio:** https://uzezigreatefezino.vercel.app/
 - **PassSabi AI:** https://passsabi.vercel.app
 
 ---
