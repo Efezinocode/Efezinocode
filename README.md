@@ -125,6 +125,11 @@ My personal developer portfolio where I showcase my projects, skills, journey, a
 
 ---
 
+### 🚀 LinkedIn Profile 
+My Linkdin profile. Please support and follow 
+
+🔗 **[visit my Linkdin profile](https://www.linkedin.com/in/efezino-great-uzezi-41a926421/)**
+
 ### 🧮 Calculator Projects
 
 Some of my earlier projects that helped me develop my programming fundamentals.
@@ -219,6 +224,7 @@ There will be many more projects after it.
 - 🌐 **Portfolio:** https://uzezigreatefezino.vercel.app/
 - 💻 **GitHub:** https://github.com/Efezinocode
 - 🎓 **PassSabi AI:** https://passsabi.vercel.app
+- 🚀 **LinkedIn:** https://www.linkedin.com/in/efezino-great-uzezi-41a926421/
 
 ---
 
