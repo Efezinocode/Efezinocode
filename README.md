@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Uzezi Great Efezino 👋</h1>
+<h1 align="center">Hi, I'm Efezino Great Uzezi 👋</h1>
 
 <p align="center">
   <strong>Python Developer • AI Builder • Founder of PassSabi AI • Student Developer 🇳🇬</strong>
