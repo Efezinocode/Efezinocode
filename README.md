@@ -12,7 +12,7 @@
 
 ## 🚀 My Story
 
-I'm **Uzezi Great Efezino**, a developer from Nigeria with a big goal:
+I'm **Efezino Great Uzezi**, a developer from Nigeria with a big goal:
 
 > **Use technology to solve real problems, build useful products, and create opportunities for myself and others.**
 
