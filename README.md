@@ -230,7 +230,7 @@ There will be many more projects after it.
 
 ## 👨🏽‍💻 About Me
 
-**Name:** Uzezi Great Efezino  
+**Name:** Efezino Great Uzezi 
 **Focus:** Python Development, AI, Web Development & Product Building  
 **Project:** PassSabi AI  
 **Role:** Founder & Developer  
@@ -239,9 +239,9 @@ There will be many more projects after it.
 ---
 
 <p align="center">
-  <strong>Uzezi Great Efezino</strong>
+  <strong>Efezino Great Uzezi</strong>
   <br>
-  Python Developer • AI Builder • Founder of PassSabi AI
+  Python Developer • AI developer • Founder of PassSabi AI
 </p>
 
 <p align="center">
