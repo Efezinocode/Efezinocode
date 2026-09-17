@@ -64,6 +64,9 @@ And I'm still learning.
 
 🔗 **[Visit PassSabi AI](https://passsabi.vercel.app)**
 
+![homepage](./homepage.png)
+
+
 ---
 
 ## 💻 My Development Journey
