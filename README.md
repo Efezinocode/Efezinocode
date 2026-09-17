@@ -107,6 +107,9 @@ My goal is to become a developer who doesn't just copy code, but actually **unde
 - Debugging and code analysis
 - Building reliable AI-powered applications
 
+![moto](./moto.png)
+
+
 ---
 
 ## 📂 Featured Projects
