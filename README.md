@@ -107,9 +107,9 @@ My goal is to become a developer who doesn't just copy code, but actually **unde
 - Debugging and code analysis
 - Building reliable AI-powered applications
 
-![moto](./moto.png)
-
-
+<p align="center">
+  <img src="./moto.png" width="100%" alt="Keep Learning Until The L Get Silent" />
+</p>
 ---
 
 ## 📂 Featured Projects
