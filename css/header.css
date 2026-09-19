@@ -1,0 +1,128 @@
+/* ==================================================
+   SITE HEADER
+   Nav uses a checkbox + label (no JavaScript) so the
+   mobile menu can never break due to a script failing
+   to load.
+================================================== */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid rgba(241, 238, 229, 0.06);
+  background: rgba(9, 10, 10, 0.86);
+  backdrop-filter: blur(16px);
+}
+
+.header-inner {
+  position: relative;
+  min-height: 76px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px 20px;
+  padding-block: 14px;
+}
+
+.site-brand {
+  display: inline-flex;
+  min-width: 0;
+  align-items: baseline;
+  gap: 9px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-brand__name {
+  font-size: 0.95rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.site-brand__status {
+  color: var(--muted-2);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.68rem;
+  white-space: nowrap;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.site-nav a {
+  position: relative;
+  color: var(--muted);
+  text-decoration: none;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.73rem;
+  letter-spacing: 0.02em;
+  transition: color 180ms ease;
+  white-space: nowrap;
+}
+
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -7px;
+  left: 0;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: var(--accent);
+  transition: transform 180ms var(--ease);
+}
+
+.site-nav a:hover,
+.site-nav a.is-active {
+  color: var(--text);
+}
+
+.site-nav a:hover::after,
+.site-nav a.is-active::after {
+  transform: scaleX(1);
+}
+
+/* Checkbox driving the mobile menu — visually hidden,
+   still focusable/operable for keyboard + screen readers. */
+.nav-toggle-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 1px;
+  background: var(--text);
+  transition: transform 180ms var(--ease), opacity 180ms ease;
+}
+
+.menu-toggle span + span {
+  margin-top: 5px;
+}
+
+.nav-toggle-input:focus-visible + .menu-toggle {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

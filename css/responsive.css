@@ -1,0 +1,177 @@
+@media (max-width: 980px) {
+  :root {
+    --gutter: 22px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-block: 86px 96px;
+  }
+
+  .hero__grid,
+  .about__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__visual {
+    justify-self: start;
+    width: min(100%, 470px);
+  }
+
+  .featured-project {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-project__mark {
+    min-height: 170px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-brand__status {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .site-nav {
+    position: absolute;
+    top: calc(100% + 1px);
+    right: var(--gutter);
+    left: var(--gutter);
+    z-index: 99;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2px;
+    padding: 8px;
+    border: 1px solid var(--border-strong);
+    border-radius: 14px;
+    background: rgba(14, 16, 15, 0.98);
+    box-shadow: 0 24px 48px -20px var(--shadow);
+  }
+
+  .nav-toggle-input:checked ~ .site-nav {
+    display: flex;
+  }
+
+  .nav-toggle-input:checked ~ .menu-toggle span:first-child {
+    transform: translateY(3px) rotate(45deg);
+  }
+
+  .nav-toggle-input:checked ~ .menu-toggle span:last-child {
+    transform: translateY(-3px) rotate(-45deg);
+  }
+
+  .site-nav a {
+    padding: 13px 12px;
+    border-radius: 9px;
+  }
+
+  .site-nav a:hover {
+    background: rgba(255, 255, 255, 0.03);
+  }
+
+  .site-nav a::after {
+    display: none;
+  }
+
+  .section {
+    padding-block: 82px;
+  }
+
+  .section-heading {
+    margin-bottom: 38px;
+  }
+
+  .showcase-grid,
+  .roadmap-grid,
+  .goals-grid,
+  .explore-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .philosophy-section {
+    padding-block: 105px;
+  }
+}
+
+@media (max-width: 540px) {
+  :root {
+    --gutter: 17px;
+  }
+
+  .site-brand__status {
+    display: none;
+  }
+
+  .hero {
+    padding-block: 68px 78px;
+  }
+
+  .hero__title {
+    font-size: clamp(3.4rem, 18vw, 5rem);
+  }
+
+  .hero__visual {
+    width: 100%;
+  }
+
+  .device-card {
+    transform: none;
+  }
+
+  .button-row {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .featured-project {
+    padding: 24px;
+  }
+
+  .featured-project__mark {
+    min-height: 130px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 34px 1fr;
+    gap: 15px;
+  }
+
+  .timeline::before {
+    left: 16px;
+  }
+
+  .timeline-item__number {
+    width: 34px;
+    height: 34px;
+    font-size: 0.62rem;
+  }
+
+  .showcase-card__image-wrap {
+    padding: 6px;
+  }
+
+  .showcase-card img {
+    border-radius: 11px;
+  }
+
+  .philosophy__quote {
+    font-size: clamp(3.2rem, 17vw, 5.1rem);
+  }
+
+  .footer-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

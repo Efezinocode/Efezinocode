@@ -1,0 +1,53 @@
+/* ==================================================
+   HOME — explore grid
+   Card links from the homepage out to each topic page.
+================================================== */
+
+.explore-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.explore-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 22px;
+  min-height: 168px;
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.02);
+  text-decoration: none;
+  transition: transform 180ms var(--ease), border-color 180ms ease;
+}
+
+.explore-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-strong);
+}
+
+.explore-card__number {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--accent);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+}
+
+.explore-card h3 {
+  font-size: 1.15rem;
+  color: var(--text);
+}
+
+.explore-card p {
+  margin-top: 6px;
+  font-size: 0.86rem;
+}
+
+.explore-card span.go {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.78rem;
+  color: var(--green);
+}
