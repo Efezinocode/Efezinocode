@@ -126,3 +126,20 @@
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
+
+/* Shown only on the homepage. "Home" has no nav link of its own,
+   so this gives the same current-page indicator the other six
+   nav items already get via .site-nav a.is-active. */
+.site-brand.is-home {
+  position: relative;
+}
+
+.site-brand.is-home::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -9px;
+  left: 0;
+  height: 1px;
+  background: var(--accent);
+}
