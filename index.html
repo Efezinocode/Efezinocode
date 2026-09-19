@@ -1,2995 +1,537 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  >
+  <title>Efezino Great Uzezi | Developer, AI Builder & Founder</title>
 
-  <title>
-    Efezino Uzezi Great | Python Developer, AI developer & Founder
-  </title>
-  
-  <meta name="google-site-verification" content="Mf2dahPoH0BTtR7LbX8cLjKeB5iDqpVoZl4-OnSvenU" />
-  
   <meta
     name="description"
-    content="Efezino Uzezi Great is a Nigerian Python Developer, AI developer and Founder of PassSabi AI, building practical technology and learning through real projects."
-  >
-
+    content="Efezino Great Uzezi is a Nigerian developer and AI builder building practical software, including PassSabi AI."
+  />
   <meta
     name="keywords"
-    content="Efezino Uzezi Great, Python Developer, AI developer, PassSabi AI, Nigerian Developer, Web Developer, Software Developer"
-  >
+    content="Efezino Great Uzezi, developer, AI builder, Python developer, PassSabi AI, Nigerian developer"
+  />
+  <meta name="author" content="Efezino Great Uzezi" />
+  <meta name="google-site-verification" content="Mf2dahPoH0BTtR7LbX8cLjKeB5iDqpVoZl4-OnSvenU" />
 
-  <meta name="author" content="Efezino Uzezi Great">
-
-  <meta
-    property="og:title"
-    content="Efezino Uzezi Great| Python Developer & AI developer"
-  >
-
+  <meta property="og:title" content="Efezino Great Uzezi | Developer & AI Builder" />
   <meta
     property="og:description"
-    content="Python Developer, AI developer and Founder of PassSabi AI."
-  >
+    content="A personal portfolio documenting Efezino Great Uzezi's journey, projects and work building practical technology."
+  />
+  <meta property="og:type" content="website" />
 
-  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#090a0a" />
 
-  <meta
-    name="theme-color"
-    content="#0A0A0D"
-  >
+  <link rel="icon" href="passsabi-icon.jpg" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
-    rel="preconnect"
-    href="https://fonts.googleapis.com"
-  >
-
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
-
-  <link
-    rel="preload"
-    as="style"
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
-    onload="this.onload=null;this.rel='stylesheet'"
-  >
-  <noscript>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    >
-  </noscript>
-
-  <style>
-
-    :root {
-      --bg: #0A0A0D;
-      --surface: #131318;
-      --surface-2: #1C1C24;
-      --gold: #F5B942;
-      --teal: #4ECDC4;
-      --violet: #8B7FDD;
-      --text: #F2EFEA;
-      --muted: #98A0B3;
-      --border: rgba(242,239,234,0.09);
-      --shadow: rgba(0,0,0,.55);
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      background:
-        radial-gradient(
-          circle at 10% 5%,
-          rgba(78,205,196,.09),
-          transparent 30%
-        ),
-        radial-gradient(
-          circle at 90% 20%,
-          rgba(245,185,66,.07),
-          transparent 28%
-        ),
-        var(--bg);
-
-      color: var(--text);
-
-      font-family:
-        "Inter",
-        sans-serif;
-
-      line-height: 1.6;
-
-      -webkit-font-smoothing: antialiased;
-
-      overflow-x: hidden;
-    }
-
-    ::selection {
-      background: var(--gold);
-      color: #171200;
-    }
-
-    h1,
-    h2,
-    h3,
-    .display,
-    .wordmark {
-      font-family: "Space Grotesk", sans-serif;
-      font-weight: 600;
-      letter-spacing: -0.025em;
-      margin: 0;
-    }
-
-    a {
-      color: inherit;
-    }
-
-    .wrap {
-      max-width: 1080px;
-      margin: 0 auto;
-      padding: 0 24px;
-    }
-
-    /* =========================
-       NAVIGATION
-    ========================= */
-
-    header.site {
-      padding: 24px 0;
-      border-bottom: 1px solid rgba(242,239,234,.05);
-    }
-
-    .nav-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .wordmark {
-      font-size: 1.05rem;
-    }
-
-    .wordmark span {
-      color: var(--gold);
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 22px;
-    }
-
-    .nav-links a {
-      text-decoration: none;
-      color: var(--muted);
-      font-size: .92rem;
-      transition: color .2s ease;
-    }
-
-    .nav-links a:hover {
-      color: var(--text);
-    }
-
-    /* =========================
-       HERO
-    ========================= */
-
-    .hero {
-      padding: 80px 0 100px;
-
-      display: grid;
-      grid-template-columns: 1.15fr .85fr;
-
-      gap: 60px;
-
-      align-items: center;
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 9px;
-
-      color: var(--muted);
-
-      font-size: .8rem;
-      font-weight: 600;
-
-      text-transform: uppercase;
-      letter-spacing: .11em;
-
-      margin-bottom: 20px;
-    }
-
-    .eyebrow-dot {
-      width: 7px;
-      height: 7px;
-
-      border-radius: 50%;
-
-      background: var(--teal);
-
-      box-shadow:
-        0 0 14px rgba(78,205,196,.6);
-    }
-
-    .hero h1 {
-      font-size: clamp(3rem, 8vw, 5.8rem);
-      line-height: .95;
-
-      letter-spacing: -.06em;
-
-      margin-bottom: 20px;
-    }
-
-    .hero h1 .last-name {
-      color: var(--gold);
-    }
-
-    .hero .role {
-      color: var(--teal);
-
-      font-family: "Space Grotesk", sans-serif;
-
-      font-size: clamp(1rem, 2vw, 1.2rem);
-      font-weight: 500;
-
-      margin-bottom: 17px;
-    }
-
-    .flag {
-      font-size: .8em;
-      vertical-align: middle;
-    }
-
-    .hero .lede {
-      max-width: 63ch;
-
-      color: var(--muted);
-
-      font-size: 1.04rem;
-
-      margin: 0;
-    }
-
-    .cta-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-
-      margin-top: 30px;
-    }
-
-    .btn {
-      display: inline-flex;
-
-      align-items: center;
-      justify-content: center;
-
-      padding: 12px 20px;
-
-      border-radius: 10px;
-
-      text-decoration: none;
-
-      font-size: .92rem;
-      font-weight: 600;
-
-      border: 1px solid transparent;
-
-      transition:
-        transform .18s ease,
-        opacity .18s ease,
-        border-color .18s ease;
-    }
-
-    .btn:hover {
-      transform: translateY(-2px);
-    }
-
-    .btn.primary {
-      background: var(--gold);
-      color: #1A1200;
-    }
-
-    .btn.primary:hover {
-      opacity: .92;
-    }
-
-    .btn.ghost {
-      border-color: var(--border);
-      color: var(--text);
-    }
-
-    .btn.ghost:hover {
-      border-color: rgba(242,239,234,.3);
-    }
-
-    /* =========================
-       PASSSABI PHONE
-    ========================= */
-
-    .phone-wrap {
-      display: flex;
-      justify-content: center;
-    }
-
-    .phone {
-      width: 245px;
-
-      background:
-        linear-gradient(
-          160deg,
-          #0D0F22,
-          #0A0C19
-        );
-
-      border-radius: 34px;
-
-      border: 6px solid #292D57;
-
-      padding: 14px 12px;
-
-      box-shadow:
-        0 35px 70px -25px var(--shadow);
-
-      transform: rotate(2deg);
-    }
-
-    .phone .screen-head {
-      display: flex;
-      align-items: center;
-
-      gap: 8px;
-
-      padding:
-        4px 4px 14px;
-    }
-
-    .phone .dot {
-      width: 23px;
-      height: 23px;
-
-      border-radius: 7px;
-
-      background:
-        linear-gradient(
-          135deg,
-          var(--teal),
-          var(--gold)
-        );
-    }
-
-    .phone .name {
-      font-size: .74rem;
-      font-weight: 600;
-    }
-
-    .phone .name span {
-      color: var(--gold);
-    }
-
-    .bubble {
-      background: var(--surface-2);
-
-      border-radius: 12px;
-
-      padding: 10px 12px;
-
-      font-size: .68rem;
-
-      color: var(--muted);
-
-      margin-bottom: 8px;
-
-      max-width: 88%;
-    }
-
-    .bubble.me {
-      margin-left: auto;
-
-      background: var(--teal);
-
-      color: #06201d;
-    }
-
-    .phone .navbar {
-      display: flex;
-      justify-content: space-between;
-
-      margin-top: 16px;
-
-      padding-top: 12px;
-
-      border-top:
-        1px solid var(--border);
-    }
-
-    .phone .navbar .item {
-      width: 8px;
-      height: 8px;
-
-      border-radius: 50%;
-
-      background:
-        rgba(242,239,234,.16);
-    }
-
-    .phone .navbar .item.active {
-      background: var(--teal);
-    }
-
-    /* =========================
-       SECTIONS
-    ========================= */
-
-    section {
-      padding: 75px 0;
-
-      border-top:
-        1px solid var(--border);
-    }
-
-    section h2 {
-      font-size: clamp(1.8rem, 4vw, 2.5rem);
-
-      margin-bottom: 25px;
-    }
-
-    .section-intro {
-      max-width: 65ch;
-
-      color: var(--muted);
-
-      margin-bottom: 35px;
-    }
-
-    /* =========================
-       STORY
-    ========================= */
-
-    .story p {
-      max-width: 67ch;
-
-      color: var(--muted);
-
-      margin:
-        0 0 19px;
-
-      font-size: 1rem;
-    }
-
-    .story p strong {
-      color: var(--text);
-
-      font-weight: 600;
-    }
-
-    .pull {
-      border-left:
-        3px solid var(--gold);
-
-      padding-left: 18px;
-
-      color: var(--text) !important;
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      font-size: 1.22rem !important;
-
-      font-weight: 500;
-
-      margin:
-        30px 0 !important;
-
-      max-width: 58ch !important;
-    }
-
-    /* =========================
-       STATS
-    ========================= */
-
-    .stats {
-      display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
-      gap: 14px;
-
-      margin-top: 35px;
-    }
-
-    .stat {
-      padding: 22px;
-
-      background: rgba(255,255,255,.025);
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 15px;
-    }
-
-    .stat strong {
-      display: block;
-
-      color: var(--text);
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      font-size: 1.35rem;
-
-      margin-bottom: 4px;
-    }
-
-    .stat span {
-      color: var(--muted);
-
-      font-size: .82rem;
-    }
-
-    /* =========================
-       SKILLS
-    ========================= */
-
-    .tags {
-      display: flex;
-
-      flex-wrap: wrap;
-
-      gap: 10px;
-
-      max-width: 800px;
-    }
-
-    .tag {
-      padding:
-        8px 15px;
-
-      border-radius: 999px;
-
-      border:
-        1px solid var(--border);
-
-      font-size: .87rem;
-
-      color: var(--muted);
-
-      background:
-        rgba(255,255,255,.015);
-    }
-
-    .learning-note {
-      margin-top: 30px;
-
-      max-width: 700px;
-
-      padding: 20px;
-
-      border-radius: 14px;
-
-      background: var(--surface);
-
-      border:
-        1px solid var(--border);
-
-      color: var(--muted);
-
-      font-size: .94rem;
-    }
-
-    .learning-note strong {
-      color: var(--gold);
-    }
-
-    /* =========================
-       TIMELINE
-       (used by "How I started coding"
-       and "How I built PassSabi AI")
-    ========================= */
-
-    .timeline {
-      position: relative;
-
-      margin-top: 40px;
-    }
-
-    .timeline-item {
-      position: relative;
-
-      display: grid;
-
-      grid-template-columns: 46px 1fr;
-
-      gap: 22px;
-
-      padding-bottom: 34px;
-    }
-
-    .timeline-item::before {
-      content: "";
-
-      position: absolute;
-
-      left: 22px;
-      top: 46px;
-      bottom: -34px;
-
-      width: 1px;
-
-      background: var(--border);
-    }
-
-    .timeline-item:last-child {
-      padding-bottom: 0;
-    }
-
-    .timeline-item:last-child::before {
-      display: none;
-    }
-
-    .timeline-marker {
-      width: 44px;
-      height: 44px;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      border-radius: 50%;
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      font-size: .82rem;
-      font-weight: 700;
-
-      color: #06201d;
-
-      background:
-        linear-gradient(
-          145deg,
-          var(--teal),
-          var(--gold)
-        );
-
-      flex-shrink: 0;
-
-      z-index: 1;
-    }
-
-    .timeline-marker.violet {
-      color: #14102B;
-
-      background:
-        linear-gradient(
-          145deg,
-          var(--violet),
-          var(--teal)
-        );
-    }
-
-    .timeline-content h3 {
-      font-size: 1.08rem;
-
-      margin-bottom: 7px;
-    }
-
-    .timeline-content p {
-      color: var(--muted);
-
-      max-width: 60ch;
-
-      font-size: .93rem;
-
-      margin: 0;
-    }
-
-    /* =========================
-       ROADMAP
-       (used by "How I built PassSabi AI")
-    ========================= */
-
-    .roadmap-heading {
-      margin-top: 55px;
-
-      font-size: 1.3rem;
-    }
-
-    .roadmap-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(2, 1fr);
-
-      gap: 14px;
-
-      margin-top: 30px;
-    }
-
-    .roadmap-card {
-      padding: 24px;
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 16px;
-
-      background:
-        rgba(255,255,255,.02);
-    }
-
-    .roadmap-card h3 {
-      font-size: 1.02rem;
-
-      margin-bottom: 10px;
-    }
-
-    .roadmap-card p {
-      color: var(--muted);
-
-      font-size: .88rem;
-
-      margin: 0;
-    }
-
-    .status {
-      display: inline-block;
-
-      padding: 4px 11px;
-
-      border-radius: 999px;
-
-      font-size: .7rem;
-      font-weight: 600;
-
-      margin-bottom: 13px;
-    }
-
-    .status.shipped {
-      color: var(--teal);
-
-      background: rgba(78,205,196,.14);
-    }
-
-    .status.progress {
-      color: var(--gold);
-
-      background: rgba(245,185,66,.14);
-    }
-
-    .status.planned {
-      color: var(--muted);
-
-      background: rgba(242,239,234,.07);
-    }
-
-    /* =========================
-       SHOWCASE
-       (real PassSabi screenshots,
-       used in "How I built PassSabi AI")
-    ========================= */
-
-    .showcase-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(2, 1fr);
-
-      gap: 26px;
-
-      margin: 40px 0 55px;
-    }
-
-    .showcase-frame {
-      border-radius: 26px;
-
-      border:
-        6px solid #292D57;
-
-      background:
-        linear-gradient(
-          160deg,
-          #0D0F22,
-          #0A0C19
-        );
-
-      padding: 8px;
-
-      box-shadow:
-        0 30px 60px -30px var(--shadow);
-    }
-
-    .showcase-frame img {
-      display: block;
-
-      width: 100%;
-
-      border-radius: 18px;
-    }
-
-    .showcase-caption {
-      margin-top: 15px;
-
-      text-align: center;
-    }
-
-    .showcase-caption .label {
-      display: block;
-
-      color: var(--teal);
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      font-weight: 600;
-
-      font-size: .92rem;
-
-      margin-bottom: 4px;
-    }
-
-    .showcase-caption .sub {
-      color: var(--muted);
-
-      font-size: .82rem;
-    }
-
-    /* =========================
-       PASSSABI PROJECT
-    ========================= */
-
-    .project {
-      display: grid;
-
-      grid-template-columns:
-        1fr 260px;
-
-      gap: 30px;
-
-      background:
-        linear-gradient(
-          145deg,
-          var(--surface),
-          #171A35
-        );
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 22px;
-
-      padding: 35px;
-
-      overflow: hidden;
-
-      position: relative;
-    }
-
-    .project::after {
-      content: "";
-
-      position: absolute;
-
-      width: 200px;
-      height: 200px;
-
-      border-radius: 50%;
-
-      background:
-        radial-gradient(
-          circle,
-          rgba(78,205,196,.1),
-          transparent 65%
-        );
-
-      right: -60px;
-      top: -70px;
-
-      pointer-events: none;
-    }
-
-    .project h3 {
-      font-size: 1.6rem;
-    }
-
-    .project .tagline {
-      color: var(--gold);
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      margin-top: 5px;
-    }
-
-    .project p {
-      color: var(--muted);
-
-      max-width: 63ch;
-    }
-
-    .project .btn {
-      margin-top: 10px;
-    }
-
-    .project-side {
-      display: flex;
-
-      align-items: center;
-      justify-content: center;
-    }
-
-    .project-logo {
-      width: 150px;
-      height: 150px;
-
-      border-radius: 30px;
-
-      display: flex;
-
-      align-items: center;
-      justify-content: center;
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      font-size: 1.25rem;
-
-      font-weight: 700;
-
-      color: #061513;
-
-      background:
-        linear-gradient(
-          145deg,
-          var(--teal),
-          var(--gold)
-        );
-
-      box-shadow:
-        0 25px 50px
-        rgba(0,0,0,.25);
-    }
-
-    /* =========================
-       PROJECT CARDS
-    ========================= */
-
-    .projects-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
-      gap: 14px;
-
-      margin-top: 35px;
-    }
-
-    .project-card {
-      display: flex;
-
-      flex-direction: column;
-
-      justify-content: space-between;
-
-      min-height: 245px;
-
-      padding: 25px;
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 17px;
-
-      background:
-        rgba(255,255,255,.02);
-
-      transition:
-        transform .2s ease,
-        border-color .2s ease;
-    }
-
-    .project-card:hover {
-      transform: translateY(-4px);
-
-      border-color:
-        rgba(242,239,234,.25);
-    }
-
-    .project-card .number {
-      color: var(--gold);
-
-      font-size: .72rem;
-
-      font-weight: 700;
-
-      letter-spacing: .1em;
-    }
-
-    .project-card h3 {
-      margin-top: 17px;
-
-      font-size: 1.2rem;
-    }
-
-    .project-card p {
-      color: var(--muted);
-
-      font-size: .86rem;
-    }
-
-    .project-link {
-      display: inline-block;
-
-      margin-top: 20px;
-
-      text-decoration: none;
-
-      font-size: .84rem;
-
-      font-weight: 600;
-
-      color: var(--teal);
-    }
-
-    /* =========================
-       GOALS
-    ========================= */
-
-    .goals-grid {
-      display: grid;
-
-      grid-template-columns:
-        repeat(2, 1fr);
-
-      gap: 14px;
-
-      margin-top: 35px;
-    }
-
-    .goal {
-      padding: 25px;
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 16px;
-
-      background: var(--surface);
-    }
-
-    .goal h3 {
-      margin-bottom: 7px;
-
-      font-size: 1.05rem;
-    }
-
-    .goal p {
-      color: var(--muted);
-
-      margin: 0;
-
-      font-size: .88rem;
-    }
-
-    /* =========================
-       PHILOSOPHY
-    ========================= */
-
-    .philosophy {
-      text-align: center;
-
-      padding:
-        100px 0;
-    }
-
-    .philosophy-label {
-      color: var(--teal);
-
-      text-transform: uppercase;
-
-      letter-spacing: .13em;
-
-      font-size: .72rem;
-
-      font-weight: 700;
-    }
-
-    .quote {
-      max-width: 900px;
-
-      margin:
-        25px auto 0;
-
-      font-family:
-        "Space Grotesk",
-        sans-serif;
-
-      font-size:
-        clamp(2.2rem, 7vw, 4.6rem);
-
-      line-height: 1;
-
-      letter-spacing: -.055em;
-    }
-
-    .quote .gold {
-      color: var(--gold);
-    }
-
-    .quote .teal {
-      color: var(--teal);
-    }
-
-    .philosophy-note {
-      max-width: 550px;
-
-      margin:
-        25px auto 0;
-
-      color: var(--muted);
-
-      font-size: .92rem;
-    }
-
-    /* =========================
-       CONTACT
-    ========================= */
-
-    .contact-box {
-      padding: 42px;
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 22px;
-
-      background:
-        linear-gradient(
-          145deg,
-          rgba(255,255,255,.055),
-          rgba(255,255,255,.015)
-        );
-    }
-
-    .contact-box h2 {
-      margin-bottom: 12px;
-    }
-
-    .contact-box > p {
-      max-width: 63ch;
-
-      color: var(--muted);
-    }
-
-    .contact-info {
-      display: grid;
-
-      grid-template-columns:
-        repeat(3, 1fr);
-
-      gap: 12px;
-
-      margin-top: 30px;
-    }
-
-    .contact-item {
-      padding: 18px;
-
-      border:
-        1px solid var(--border);
-
-      border-radius: 13px;
-
-      background:
-        rgba(255,255,255,.02);
-    }
-
-    .contact-item .label {
-      display: block;
-
-      color: var(--muted);
-
-      font-size: .72rem;
-
-      text-transform: uppercase;
-
-      letter-spacing: .08em;
-
-      margin-bottom: 6px;
-    }
-
-    .contact-item a {
-      color: var(--text);
-
-      text-decoration: none;
-
-      font-size: .88rem;
-
-      word-break: break-word;
-    }
-
-    .contact-item a:hover {
-      color: var(--teal);
-    }
-
-    /* =========================
-       FOOTER
-    ========================= */
-
-    footer {
-      padding:
-        45px 0 60px;
-
-      color: var(--muted);
-
-      font-size: .83rem;
-    }
-
-    .foot-row {
-      display: flex;
-
-      justify-content: space-between;
-
-      gap: 20px;
-
-      flex-wrap: wrap;
-0
-      border-top:
-        1px solid var(--border);
-
-      padding-top: 23px;
-    }
-
-    .footer-links {
-      display: flex;
-
-      gap: 18px;
-    }
-
-    .footer-links a {
-      color: var(--muted);
-
-      text-decoration: none;
-    }
-
-    .footer-links a:hover {
-      color: var(--text);
-    }
-
-    /* =========================
-       ANIMATION
-    ========================= */
-
-    @media (
-      prefers-reduced-motion: no-preference
-    ) {
-
-      .reveal {
-        opacity: 0;
-
-        transform:
-          translateY(15px);
-
-        animation:
-          rise .7s ease forwards;
-      }
-
-      .reveal.delay {
-        animation-delay: .12s;
-      }
-
-      @keyframes rise {
-
-        to {
-          opacity: 1;
-          transform: none;
-        }
-
-      }
-
-    }
-
-    /* =========================
-       TABLET
-    ========================= */
-
-    @media (max-width: 850px) {
-
-      .hero {
-        grid-template-columns: 1fr;
-
-        padding-top: 65px;
-      }
-
-      .phone-wrap {
-        padding-top: 10px;
-      }
-
-      .project {
-        grid-template-columns: 1fr;
-      }
-
-      .project-side {
-        justify-content: flex-start;
-      }
-
-      .projects-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .contact-info {
-        grid-template-columns: 1fr;
-      }
-
-      .roadmap-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .showcase-grid {
-        grid-template-columns: 1fr;
-
-        max-width: 320px;
-
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-    }
-
-    /* =========================
-       MOBILE
-    ========================= */
-
-    @media (max-width: 600px) {
-
-      .wrap {
-        padding:
-          0 19px;
-      }
-
-      header.site {
-        padding: 20px 0;
-      }
-
-      .nav-links {
-        gap: 12px;
-      }
-
-      .nav-links a:nth-child(1) {
-        display: none;
-      }
-
-      .hero {
-        padding:
-          65px 0 75px;
-      }
-
-      .hero h1 {
-        font-size:
-          clamp(3rem, 16vw, 4.6rem);
-      }
-
-      .cta-row {
-        flex-direction: column;
-      }
-
-      .btn {
-        width: 100%;
-      }
-
-      section {
-        padding:
-          62px 0;
-      }
-
-      .stats {
-        grid-template-columns: 1fr;
-      }
-
-      .project {
-        padding: 27px;
-      }
-
-      .project-logo {
-        width: 125px;
-        height: 125px;
-      }
-
-      .goals-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .contact-box {
-        padding: 27px;
-      }
-
-      .footer-links {
-        flex-wrap: wrap;
-      }
-
-      .timeline-item {
-        grid-template-columns: 36px 1fr;
-
-        gap: 15px;
-
-        padding-bottom: 28px;
-      }
-
-      .timeline-item::before {
-        left: 17px;
-        top: 40px;
-      }
-
-      .timeline-marker {
-        width: 36px;
-        height: 36px;
-
-        font-size: .72rem;
-      }
-
-    }
-
-  </style>
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Global design system -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Component styles -->
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/hero.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="stylesheet" href="css/skills.css" />
+  <link rel="stylesheet" href="css/journey.css" />
+  <link rel="stylesheet" href="css/passsabi.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="stylesheet" href="css/goals.css" />
+  <link rel="stylesheet" href="css/philosophy.css" />
+  <link rel="stylesheet" href="css/contact.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
 <body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
 
-  <!-- ========================================
-       HEADER
-  ========================================= -->
+  <!-- ==================================================
+       SITE HEADER
+  =================================================== -->
+  <header class="site-header" data-site-header>
+    <div class="container header-inner">
+      <a class="site-brand" href="#top" aria-label="Efezino Great Uzezi home">
+        <span class="site-brand__name">Efezino Great Uzezi</span>
+        <span class="site-brand__status">/ building in public</span>
+      </a>
 
-  <header class="site">
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        data-menu-toggle
+      >
+        <span></span>
+        <span></span>
+      </button>
 
-    <div class="wrap nav-row">
-
-      <div class="wordmark">
-        Uzezi Great <span>Efezino</span>
-      </div>
-
-      <nav class="nav-links">
-
-        <a href="#about">
-          About
-        </a>
-
-        <a
-          href="#projects"
-          aria-label="Projects"
-        >
-          Projects
-        </a>
-
-        <a
-          href="#contact"
-          aria-label="Contact"
-        >
-          Contact
-        </a>
-
+      <nav id="primary-navigation" class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#journey">Journey</a>
+        <a href="#passsabi">PassSabi</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
       </nav>
-
     </div>
-
   </header>
 
-
-  <!-- ========================================
-       MAIN
-  ========================================= -->
-
-  <main>
-
-    <!-- ======================================
+  <main id="main-content">
+    <!-- ==================================================
          HERO
-    ======================================= -->
+    =================================================== -->
+    <section id="top" class="hero section" aria-labelledby="hero-title">
+      <div class="container hero__grid">
+        <div class="hero__content reveal">
+          <p class="eyebrow">
+            <span class="eyebrow__dot" aria-hidden="true"></span>
+            Building · Learning · Shipping
+          </p>
 
-    <div class="wrap">
-
-      <section class="hero">
-
-        <div class="reveal">
-
-          <div class="eyebrow">
-
-            <span class="eyebrow-dot"></span>
-
-            Building • Learning • Shipping
-
-          </div>
-
-          <h1>
-
-            Efezino Great 
-
-            <br>
-
-            <span class="last-name">
-              Uzezi.
-            </span>
-
+          <h1 id="hero-title" class="hero__title">
+            Efezino Great
+            <span>Uzezi.</span>
           </h1>
 
-          <p class="role">
-
-            Python Developer • AI Builder • Founder of
-            PassSabi AI
-
-            <span class="flag">
-              🇳🇬
-            </span>
-
+          <p class="hero__role">
+            Developer · AI Builder · Founder of PassSabi AI
+            <span aria-hidden="true">🇳🇬</span>
           </p>
 
-          <p class="lede">
-
-            I build practical technology by turning ideas
-            into real projects. I'm learning through
-            building, debugging and shipping — while
-            working toward becoming a stronger software
-            developer, AI developer, web developer and other
-            skills.
-            
-
+          <p class="hero__lede">
+            I build practical technology by turning ideas into real projects.
+            I'm learning through building, debugging and shipping — with a focus
+            on becoming a stronger software developer and AI builder.
           </p>
 
-          <div class="cta-row">
-
-            <a
-              class="btn primary"
-              href="https://passsabi-ai.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Explore PassSabi AI
+          <div class="button-row">
+            <a class="button button--primary" href="https://passsabi-ai.vercel.app" target="_blank" rel="noopener noreferrer">
+              Explore PassSabi AI ↗
             </a>
-
-            <a
-              class="btn ghost"
-              href="https://github.com/Efezinocode"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub profile ↗
+            <a class="button button--ghost" href="https://github.com/Efezinocode" target="_blank" rel="noopener noreferrer">
+              GitHub ↗
             </a>
+          </div>
+        </div>
 
+        <div class="hero__visual reveal reveal--delay">
+          <div class="hero__label">CURRENT BUILD</div>
+          <div class="device-card" aria-label="PassSabi AI preview">
+            <div class="device-card__topbar">
+              <span class="device-card__dot"></span>
+              <span>PassSabi AI</span>
+              <span class="device-card__live">LIVE</span>
+            </div>
+
+            <div class="device-card__screen">
+              <div class="chat-message chat-message--user">Explain a difficult topic to me.</div>
+              <div class="chat-message">Let's break it down step by step.</div>
+              <div class="chat-message chat-message--user">Can you help me understand it better?</div>
+              <div class="chat-message">Absolutely. Let's learn together.</div>
+            </div>
+
+            <div class="device-card__footer">
+              <span>AI learning companion</span>
+              <span>↗</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         ABOUT
+    =================================================== -->
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">01 / About</p>
+          <h2 id="about-title">Learning by building real things.</h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__copy">
+            <p>
+              I'm <strong>Efezino Great Uzezi</strong>, a Nigerian developer and AI builder.
+              My journey into technology has been driven by curiosity, ambition and a simple belief:
+              you don't have to know everything before you start building.
+            </p>
+
+            <blockquote>
+              I don't want to only use technology.<br />
+              I want to understand it, build with it and use it to solve real problems.
+            </blockquote>
+
+            <p>
+              That mindset turned a phone, tutorials, experiments and plenty of bugs into working projects.
+              The goal now is to keep expanding the depth behind what I build.
+            </p>
           </div>
 
+          <div class="about__side">
+            <figure class="about__photo">
+              <img src="banner.jpg" alt="Efezino's desk setup — laptop, keyboard and phone, where PassSabi AI gets built" />
+              <figcaption>Where I build, most nights</figcaption>
+            </figure>
+
+            <div class="stats-grid" aria-label="Quick facts">
+              <article class="stat-card">
+                <span class="stat-card__number">01</span>
+                <strong>Python</strong>
+                <span>Programming foundation</span>
+              </article>
+              <article class="stat-card">
+                <span class="stat-card__number">02</span>
+                <strong>PassSabi AI</strong>
+                <span>Featured product</span>
+              </article>
+              <article class="stat-card">
+                <span class="stat-card__number">03</span>
+                <strong>Nigeria 🇳🇬</strong>
+                <span>Building from Nigeria</span>
+              </article>
+            </div>
+          </div>
         </div>
-
-
-        <div class="phone-wrap reveal delay">
-
-          <div class="phone">
-                  <div class="screen-head">
-
-        <div class="dot"></div>
-
-        <div class="name">
-          Pass<span>Sabi</span> AI
-        </div>
-
       </div>
+    </section>
 
-      <div class="bubble">
-        Explain a difficult topic to me.
-      </div>
-
-      <div class="bubble me">
-        Let's break it down step by step.
-      </div>
-
-      <div class="bubble">
-        Can you help me understand it better?
-      </div>
-
-      <div class="bubble me">
-        Absolutely. Let's learn together.
-      </div>
-
-      <div class="navbar">
-
-        <div class="item active"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-</div>
-
-
-<!-- ======================================
-     ABOUT
-======================================= -->
-
-<section id="about">
-
-  <div class="wrap story">
-
-    <h2>
-      About me
-    </h2>
-
-    <p>
-      I'm <strong>Efezino Great Uzezi</strong>, a Nigerian
-      developer, AI builder and founder of
-      <strong>PassSabi AI</strong>. My journey into
-      technology has been driven by curiosity, ambition,
-      and a simple belief:
-      <strong>
-        you don't have to know everything before you
-        start building.
-      </strong>
-    </p>
-
-    <p class="pull">
-      I don't want to only use technology.
-      <br>
-      I want to understand it, build with it, and use it
-      to solve real problems.
-    </p>
-
-    <p>
-      That belief is what turned a phone with no laptop
-      into a working product. Below are the two stories
-      behind it — how I got into code in the first place,
-      and how that led to building PassSabi AI.
-    </p>
-
-    <div class="stats">
-
-      <div class="stat">
-
-        <strong>
-          Python
-        </strong>
-
-        <span>
-          Programming foundation
-        </span>
-
-      </div>
-
-      <div class="stat">
-
-        <strong>
-          PassSabi AI
-        </strong>
-
-        <span>
-          Main product project
-        </span>
-
-      </div>
-
-      <div class="stat">
-
-        <strong>
-          Nigeria 🇳🇬
-        </strong>
-
-        <span>
-          Building from Nigeria
-        </span>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ======================================
-     HOW I STARTED CODING
-======================================= -->
-
-<section id="coding-journey">
-
-  <div class="wrap">
-
-    <h2>
-      How I started coding
-    </h2>
-
-    <p class="section-intro">
-
-      Before PassSabi, there was just curiosity — and a
-      lot of code that didn't work on the first try.
-
-    </p>
-
-    <div class="timeline">
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker violet">
-          01
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Exploring first
-          </h3>
-
-          <p>
-            I didn't start with a plan to build one
-            specific product. I started by exploring
-            technology — coding, AI, websites — pulled in
-            by the idea that one person with a computer
-            could create something other people could
-            actually use.
+    <!-- ==================================================
+         SKILLS
+    =================================================== -->
+    <section id="skills" class="section skills-section" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">02 / Skills</p>
+          <h2 id="skills-title">What I'm learning and using.</h2>
+          <p class="section-intro">
+            I don't want to collect technologies just to list them. I want to understand how the pieces work together.
           </p>
-
         </div>
 
+        <div class="skill-list">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">TypeScript</span>
+          <span class="skill-tag">Git &amp; GitHub</span>
+          <span class="skill-tag">Supabase</span>
+          <span class="skill-tag">Vercel</span>
+          <span class="skill-tag">APIs</span>
+          <span class="skill-tag">Authentication</span>
+          <span class="skill-tag">Databases</span>
+          <span class="skill-tag">AI Integration</span>
+          <span class="skill-tag">Debugging</span>
+          <span class="skill-tag">Responsive Web Development</span>
+          <span class="skill-tag">Progressive Web Apps</span>
+          <span class="skill-tag">Product Building</span>
+        </div>
+
+        <div class="learning-note">
+          <strong>Development philosophy:</strong>
+          I want to use AI to become a better developer, not a developer who blindly copies AI output.
+          Understanding, debugging and improving the code matters to me.
+        </div>
       </div>
+    </section>
 
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker violet">
-          02
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Python, first
-          </h3>
-
-          <p>
-            I began with the fundamentals: variables,
-            conditions, loops, functions, lists, strings
-            and basic problem-solving. From there I moved
-            into HTML and CSS, then JavaScript.
+    <!-- ==================================================
+         CODING JOURNEY
+    =================================================== -->
+    <section id="journey" class="section journey-section" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">03 / Journey</p>
+          <h2 id="journey-title">How I started coding.</h2>
+          <p class="section-intro">
+            Before PassSabi, there was curiosity — and a lot of code that didn't work on the first try.
           </p>
-
         </div>
 
+        <figure class="journey__photo">
+          <img src="moto.png" alt="Efezino in the early days of learning to build" />
+          <figcaption>The early days — before there was a product, there was just the habit</figcaption>
+        </figure>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-item__number">01</span>
+            <div><h3>Exploring first</h3><p>I started by exploring technology — coding, AI and websites — pulled in by the idea that one person could create something other people could actually use.</p></div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-item__number">02</span>
+            <div><h3>Python, first</h3><p>I began with fundamentals: variables, conditions, loops, functions, lists, strings and problem-solving. From there I moved into HTML, CSS and JavaScript.</p></div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-item__number">03</span>
+            <div><h3>Learning by doing</h3><p>I stopped treating tutorials as the finish line. Every concept became a reason to ask, “how do I actually build this?”</p></div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-item__number">04</span>
+            <div><h3>Learning through bugs</h3><p>Real projects meant real errors — broken authentication, failing API calls and configuration problems. Debugging became part of the learning process.</p></div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-item__number">05</span>
+            <div><h3>Using AI without depending on it</h3><p>AI tools helped me move faster and explain unfamiliar code, but the goal became understanding enough to find and fix problems myself.</p></div>
+          </article>
+
+          <article class="timeline-item">
+            <span class="timeline-item__number">06</span>
+            <div><h3>From syntax to product thinking</h3><p>The questions changed from “how do I write this?” to “who needs this, how will they find it and how does it ship?”</p></div>
+          </article>
+        </div>
       </div>
+    </section>
 
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker violet">
-          03
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Learning by doing
-          </h3>
-
-          <p>
-            I stopped treating tutorials as the finish
-            line. Every new concept became a reason to ask
-            "how do I actually build this?" — which pulled
-            me into APIs, interfaces, databases and
-            authentication far earlier than most courses
-            would.
+    <!-- ==================================================
+         FEATURED PROJECT / PASSSABI
+    =================================================== -->
+    <section id="passsabi" class="section passsabi-section" aria-labelledby="passsabi-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">04 / Featured build</p>
+          <h2 id="passsabi-title">PassSabi AI.</h2>
+          <p class="section-intro">
+            A student-focused AI learning platform I founded to explore how AI can make learning more interactive and accessible.
           </p>
-
         </div>
 
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker violet">
-          04
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Learning through bugs
-          </h3>
-
-          <p>
-            Real projects meant real errors — broken
-            authentication, failing API calls, config that
-            looked correct but still didn't work.
-            Debugging became just as important to me as
-            writing the code in the first place.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker violet">
-          05
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Using AI without depending on it
-          </h3>
-
-          <p>
-            AI tools helped me move faster and explain
-            unfamiliar code, but I noticed the risk of
-            copying output I didn't understand. My goal
-            shifted from "get AI to build this" to
-            "understand this well enough to find the bug
-            myself."
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker violet">
-          06
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            From syntax to product thinking
-          </h3>
-
-          <p>
-            The questions changed again — from "how do I
-            write this" to "who needs this, how will they
-            find it, how does it ship" — all while still
-            balancing it with schoolwork.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-    <!-- ======================================
-     SKILLS
-======================================= -->
-
-<section>
-
-  <div class="wrap">
-
-    <h2>
-      What I'm learning
-    </h2>
-
-    <p class="section-intro">
-
-      My goal isn't just to collect technologies. I want
-      to understand how the pieces work together and
-      become capable of building and debugging real
-      applications.
-
-    </p>
-
-    <div class="tags">
-
-      <span class="tag">
-        Python
-      </span>
-
-      <span class="tag">
-        HTML
-      </span>
-
-      <span class="tag">
-        CSS
-      </span>
-
-      <span class="tag">
-        JavaScript
-      </span>
-
-      <span class="tag">
-        TypeScript
-      </span>
-
-      <span class="tag">
-        Git &amp; GitHub
-      </span>
-
-      <span class="tag">
-        Supabase
-      </span>
-
-      <span class="tag">
-        Vercel
-      </span>
-
-      <span class="tag">
-        Authentication
-      </span>
-
-      <span class="tag">
-        Databases
-      </span>
-
-      <span class="tag">
-        APIs
-      </span>
-
-      <span class="tag">
-        AI Integration
-      </span>
-
-      <span class="tag">
-        Product Building
-      </span>
-
-      <span class="tag">
-        Debugging
-      </span>
-
-      <span class="tag">
-        Responsive Web Development
-      </span>
-
-      <span class="tag">
-        Progressive Web Apps
-      </span>
-
-    </div>
-
-    <div class="learning-note">
-
-      <strong>
-        My development philosophy:
-      </strong>
-
-      I want to use AI to become a better developer,
-      not a developer who blindly copies AI output.
-      Understanding, debugging and improving the code
-      matters to me.
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ======================================
-     PASSSABI
-======================================= -->
-
-<section id="passsabi">
-
-  <div class="wrap">
-
-    <h2>
-      Featured project
-    </h2>
-
-    <p class="section-intro">
-
-      The project that pushed me from learning individual
-      programming concepts toward thinking about complete
-      products.
-
-    </p>
-
-    <div class="project">
-
-      <div>
-
-        <h3>
-          PassSabi AI
-        </h3>
-
-        <div class="tagline">
-          A student-focused AI learning platform
-        </div>
-
-        <p>
-          PassSabi AI is a project I founded to explore how
-          AI can make learning more interactive and
-          accessible for students.
-        </p>
-
-        <p>
-          Building it has given me practical experience
-          beyond basic coding, including authentication,
-          databases, APIs, AI integration, responsive
-          interfaces, deployment and product thinking.
-        </p>
-
-        <p>
-          PassSabi is also one of the biggest parts of my
-          learning journey because every new feature brings
-          another technical problem to understand and solve.
-        </p>
-
-        <div class="tags">
-
-          <span class="tag">
-            AI
-          </span>
-
-          <span class="tag">
-            Education
-          </span>
-
-          <span class="tag">
-            JavaScript
-          </span>
-
-          <span class="tag">
-            Supabase
-          </span>
-
-          <span class="tag">
-            Vercel
-          </span>
-
-          <span class="tag">
-            PWA
-          </span>
-
-        </div>
-
-        <div class="cta-row">
-
-          <a
-            class="btn primary"
-            href="https://passsabi-ai.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit PassSabi AI ↗
-          </a>
-
-        </div>
-
-      </div>
-
-      <div class="project-side">
-
-        <div class="project-logo">
-          PassSabi AI
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ======================================
-     HOW I BUILT PASSSABI AI
-======================================= -->
-
-<section id="passsabi-story">
-
-  <div class="wrap">
-
-    <h2>
-      How I built PassSabi AI
-    </h2>
-
-    <p class="section-intro">
-
-      PassSabi didn't arrive as a finished product. It grew
-      in stages — each one built to fix the biggest
-      limitation of the version before it.
-
-    </p>
-
-    <div class="showcase-grid">
-
-      <div class="showcase-item">
-
-        <div class="showcase-frame">
-          <img
-            src="assets/passsabi-home.jpg"
-            alt="PassSabi AI home screen, greeting the student and showing quick actions like Ask, Practice, Explain and Plan"
-            loading="lazy"
-          >
-        </div>
-
-        <div class="showcase-caption">
-
-          <span class="label">
-            Home
-          </span>
-
-          <span class="sub">
-            Daily study prompt and quick actions
-          </span>
-
-        </div>
-
-      </div>
-
-
-      <div class="showcase-item">
-
-        <div class="showcase-frame">
-          <img
-            src="assets/passsabi-tutor.jpg"
-            alt="PassSabi AI tutor chat explaining a chemistry topic to a student"
-            loading="lazy"
-          >
-        </div>
-
-        <div class="showcase-caption">
-
-          <span class="label">
-            AI Tutor
-          </span>
-
-          <span class="sub">
-            Step-by-step explanations, not generic answers
-          </span>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="timeline">
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          01
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Start with the problem
-          </h3>
-
-          <p>
-            I wanted an AI teacher for students, not
-            another generic chatbot — something built
-            around how Nigerian students actually learn
-            and prepare for exams.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          02
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            From idea to pages
-          </h3>
-
-          <p>
-            I built the frontend in HTML, CSS and
-            JavaScript across multiple pages — login,
-            signup, password reset, profile, settings —
-            and separated the experience into guest chat
-            and signed-in user chat.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          03
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Building the AI teacher
-          </h3>
-
-          <p>
-            I wrote the system prompt and chat logic so
-            PassSabi would behave like a tutor rather than
-            a generic bot, and added chat history, pinning,
-            renaming, deleting and stop-generation controls.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          04
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Outgrowing local storage
-          </h3>
-
-          <p>
-            Chats and user data initially lived in the
-            browser. I migrated the app onto
-            <strong>Supabase</strong> so accounts, chat
-            history and settings could sync across devices
-            instead of staying trapped on one phone.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          05
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Building the account system
-          </h3>
-
-          <p>
-            I implemented sign-up, login, logout, password
-            reset, email verification and session handling
-            — plus logic to migrate a guest's chat history
-            into their account the moment they signed up.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          06
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Fixing what broke
-          </h3>
-
-          <p>
-            I hit real production issues, like an "invalid
-            path specified in request URL" error, and
-            traced them through Supabase config, auth
-            providers and API endpoints instead of walking
-            away from them.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          07
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Making it feel like a product
-          </h3>
-
-          <p>
-            I developed the PassSabi name, logo and visual
-            identity, then added Progressive Web App
-            support — manifest, icons, installable
-            behavior — so it felt like an app, not just a
-            page.
-          </p>
-
-        </div>
-
-      </div>
-
-
-      <div class="timeline-item">
-
-        <div class="timeline-marker">
-          08
-        </div>
-
-        <div class="timeline-content">
-
-          <h3>
-            Going live
-          </h3>
-
-          <p>
-            I connected GitHub to Vercel for deployment,
-            then added a sitemap, a robots.txt file and
-            Google Search Console setup so the live product
-            could actually be discovered.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <h3 class="roadmap-heading">
-      What's next for PassSabi
-    </h3>
-
-    <div class="roadmap-grid">
-
-      <div class="roadmap-card">
-
-        <span class="status shipped">
-          Shipped
-        </span>
-
-        <h3>
-          Accounts &amp; cloud sync
-        </h3>
-
-        <p>
-          Authentication and Supabase-backed storage so
-          chats and progress follow the student across
-          devices.
-        </p>
-
-      </div>
-
-
-      <div class="roadmap-card">
-
-        <span class="status progress">
-          In progress
-        </span>
-
-        <h3>
-          Richer AI tutoring
-        </h3>
-
-        <p>
-          Image and PDF homework uploads, voice chat and
-          subject-specific tutors.
-        </p>
-
-      </div>
-
-
-      <div class="roadmap-card">
-
-        <span class="status planned">
-          Planned
-        </span>
-
-        <h3>
-          Exam prep &amp; CBT
-        </h3>
-
-        <p>
-          Timed practice for WAEC, NECO and JAMB, built
-          around real past-question patterns.
-        </p>
-
-      </div>
-
-
-      <div class="roadmap-card">
-
-        <span class="status planned">
-          Planned
-        </span>
-
-        <h3>
-          Classrooms &amp; dashboards
-        </h3>
-
-        <p>
-          Teacher accounts, student dashboards and
-          leaderboards for tracking progress over time.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-    <!-- ======================================
-     PROJECTS
-======================================= -->
-
-<section id="projects">
-
-  <div class="wrap">
-
-    <h2>
-      Projects
-    </h2>
-
-    <p class="section-intro">
-
-      Every project has been part of the process of
-      turning what I learn into something real.
-
-    </p>
-
-    <div class="projects-grid">
-
-      <article class="project-card">
-
-        <div>
-
-          <div class="number">
-            PROJECT 01
+        <div class="featured-project">
+          <div class="featured-project__content">
+            <p class="project-label">FOUNDED + BUILT BY EFEZINO GREAT UZEZI</p>
+            <h3>Your personal AI teacher.</h3>
+            <p>
+              Building PassSabi pushed me beyond basic coding into authentication, databases, APIs,
+              AI integration, responsive interfaces, deployment and product thinking.
+            </p>
+            <p>
+              It became a practical laboratory for understanding what happens when an idea has to become a working product.
+            </p>
+
+            <div class="skill-list skill-list--compact">
+              <span class="skill-tag">AI</span>
+              <span class="skill-tag">Education</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">Vercel</span>
+              <span class="skill-tag">PWA</span>
+            </div>
+
+            <div class="button-row">
+              <a class="button button--primary" href="https://passsabi-ai.vercel.app" target="_blank" rel="noopener noreferrer">
+                Visit PassSabi AI ↗
+              </a>
+            </div>
           </div>
 
-          <h3>
-            PassSabi AI
-          </h3>
-
-          <p>
-            My main product-building project exploring
-            AI-powered learning and modern web
-            development.
-          </p>
-
+          <div class="featured-project__mark">
+            <img src="passsabi-icon.jpg" alt="PassSabi AI logo" />
+          </div>
         </div>
 
-        <a
-          class="project-link"
-          href="https://passsabi-ai.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Explore project →
-        </a>
+        <div class="showcase-grid" aria-label="PassSabi AI screenshots">
+          <figure class="showcase-card">
+            <div class="showcase-card__image-wrap">
+              <img
+                src="homepage.png"
+                alt="PassSabi AI home screen"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <strong>Home</strong>
+              <span>Daily study prompt and quick actions</span>
+            </figcaption>
+          </figure>
 
-      </article>
+          <figure class="showcase-card">
+            <div class="showcase-card__image-wrap">
+              <img
+                src="Tutor.jpg"
+                alt="PassSabi AI tutor chat interface"
+                loading="lazy"
+              />
+            </div>
+            <figcaption>
+              <strong>AI Tutor</strong>
+              <span>Step-by-step explanations, not generic answers</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
 
+    <!-- ==================================================
+         HOW PASSSABI WAS BUILT
+    =================================================== -->
+    <section id="passsabi-story" class="section passsabi-story-section" aria-labelledby="passsabi-story-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">05 / Case study</p>
+          <h2 id="passsabi-story-title">How I built PassSabi AI.</h2>
+          <p class="section-intro">
+            PassSabi didn't arrive as a finished product. It grew in stages, with each version forcing another technical problem to be understood.
+          </p>
+        </div>
 
-      <article class="project-card">
+        <div class="timeline timeline--project">
+          <article class="timeline-item"><span class="timeline-item__number">01</span><div><h3>Start with the problem</h3><p>I wanted an AI teacher for students, not another generic chatbot — something built around how Nigerian students learn and prepare for exams.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">02</span><div><h3>From idea to pages</h3><p>I built the frontend across multiple pages — login, signup, password reset, profile and settings — with separate guest and signed-in experiences.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">03</span><div><h3>Building the AI teacher</h3><p>I shaped the chat logic so PassSabi behaves more like a tutor and added controls for chat history, pinning, renaming, deleting and stopping generation.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">04</span><div><h3>Outgrowing local storage</h3><p>Chats and user data initially lived in the browser. I moved the app toward Supabase-backed accounts, storage and synchronization.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">05</span><div><h3>Building the account system</h3><p>I implemented signup, login, logout, password reset, email verification and session handling while working toward guest-to-account migration.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">06</span><div><h3>Fixing what broke</h3><p>Production problems became part of the work: tracing configuration, authentication, APIs and deployment issues instead of walking away from them.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">07</span><div><h3>Making it feel like a product</h3><p>I developed the PassSabi identity and added PWA support so the experience could feel more like an app than a single webpage.</p></div></article>
+          <article class="timeline-item"><span class="timeline-item__number">08</span><div><h3>Going live</h3><p>I connected GitHub to Vercel and added the website foundations needed for a publicly deployed product.</p></div></article>
+        </div>
 
-        <div>
-
-          <div class="number">
-            PROJECT 02
+        <div class="roadmap-block">
+          <div class="roadmap-block__heading">
+            <p class="section-kicker">What's next</p>
+            <h3>PassSabi roadmap.</h3>
           </div>
 
-          <h3>
-            Calculator Projects
-          </h3>
+          <div class="roadmap-grid">
+            <article class="roadmap-card roadmap-card--shipped"><span>SHIPPED</span><h4>Accounts &amp; cloud sync</h4><p>Authentication and cloud-backed data for accounts, chats and progress.</p></article>
+            <article class="roadmap-card roadmap-card--progress"><span>IN PROGRESS</span><h4>Richer AI tutoring</h4><p>Image and PDF homework, voice interactions and subject-focused tutoring.</p></article>
+            <article class="roadmap-card"><span>PLANNED</span><h4>Exam prep &amp; CBT</h4><p>Practice experiences for WAEC, NECO and JAMB.</p></article>
+            <article class="roadmap-card"><span>PLANNED</span><h4>Classrooms &amp; dashboards</h4><p>Teacher accounts, student dashboards and progress tracking.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <p>
-            Early projects that helped me develop
-            programming logic, functions, calculations,
-            input handling and debugging skills.
-          </p>
-
+    <!-- ==================================================
+         OTHER PROJECTS
+    =================================================== -->
+    <section id="projects" class="section projects-section" aria-labelledby="projects-title">
+            <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">06 / Projects</p>
+          <h2 id="projects-title">Things I've built.</h2>
+          <p class="section-intro">Projects turn what I learn into something real.</p>
         </div>
 
-        <a
-          class="project-link"
-          href="https://github.com/Efezinocode"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View on GitHub →
-        </a>
+        <div class="projects-grid">
+          <article class="project-card">
+            <p class="project-card__number">PROJECT / 01</p>
+            <h3>PassSabi AI</h3>
+            <p>AI-powered learning and product-building work focused on students.</p>
+            <a href="https://passsabi-ai.vercel.app" target="_blank" rel="noopener noreferrer">Explore ↗</a>
+          </article>
 
-      </article>
+          <article class="project-card">
+            <p class="project-card__number">PROJECT / 02</p>
+            <h3>Calculator Projects</h3>
+            <p>Early builds that helped develop programming logic, functions, input handling and debugging.</p>
+            <a href="https://github.com/Efezinocode" target="_blank" rel="noopener noreferrer">View GitHub ↗</a>
+          </article>
 
+          <article class="project-card">
+            <p class="project-card__number">PROJECT / 03</p>
+            <h3>This Portfolio</h3>
+            <p>A living record of my development journey, experiments, projects and goals.</p>
+            <a href="#about">Read the story ↑</a>
+          </article>
+        </div>
+      </div>
+    </section>
 
-      <article class="project-card">
+    <!-- ==================================================
+         GOALS
+    =================================================== -->
+    <section id="goals" class="section goals-section" aria-labelledby="goals-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">07 / Direction</p>
+          <h2 id="goals-title">Where I'm going.</h2>
+        </div>
 
-        <div>
+        <div class="goals-grid">
+          <article class="goal-card"><span>01</span><h3>Build useful products</h3><p>Turn ideas into applications that solve genuine problems rather than stopping at tutorials.</p></article>
+          <article class="goal-card"><span>02</span><h3>Grow in AI</h3><p>Understand AI more deeply and become better at building practical AI-powered applications.</p></article>
+          <article class="goal-card"><span>03</span><h3>Become a stronger developer</h3><p>Improve programming fundamentals, software engineering knowledge and debugging ability.</p></article>
+          <article class="goal-card"><span>04</span><h3>Keep entering real-world challenges</h3><p>Learn through hackathons, coding challenges and projects that force practical problem-solving.</p></article>
+          <article class="goal-card"><span>05</span><h3>Help students</h3><p>Build technology that makes learning more accessible and useful for students.</p></article>
+        </div>
+      </div>
+    </section>
 
-          <div class="number">
-            PROJECT 03
+    <!-- ==================================================
+         PHILOSOPHY
+    =================================================== -->
+    <section id="philosophy" class="section philosophy-section" aria-labelledby="philosophy-title">
+      <div class="container philosophy__inner">
+        <p class="section-kicker">08 / Approach</p>
+        <h2 id="philosophy-title" class="philosophy__quote">
+          Learn.<br />
+          <span>Build.</span><br />
+          Break.<br />
+          <em>Debug.</em><br />
+          Improve.<br />
+          <strong>Ship.</strong>
+        </h2>
+        <p class="philosophy__note">
+          I don't expect every project to be perfect. I expect every project to teach me something.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================================================
+         CONTACT
+    =================================================== -->
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="section-heading">
+            <p class="section-kicker">09 / Contact</p>
+            <h2 id="contact-title">Let's connect.</h2>
+            <p class="section-intro">
+              I'm interested in connecting with developers, builders, students, mentors, collaborators and people interested in technology.
+            </p>
           </div>
 
-          <h3>
-            Personal Portfolio
-          </h3>
-
-          <p>
-            This website documents my development journey,
-            skills, projects, goals and the products I'm
-            building.
-          </p>
-
+          <div class="button-row">
+            <a class="button button--primary" href="mailto:efezinogreat001@gmail.com">Email me</a>
+            <a class="button button--ghost" href="https://github.com/Efezinocode" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            <a class="button button--ghost" href="https://t.me/Efezinouzezigreat" target="_blank" rel="noopener noreferrer">Telegram ↗</a>
+            <a class="button button--ghost" href="https://www.linkedin.com/in/efezino-great-uzezi-41a926421/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <a
-          class="project-link"
-          href="#about"
-        >
-          Explore my story ↑
-        </a>
-
-      </article>
-
+  <!-- ==================================================
+       FOOTER
+  =================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span data-current-year></span> Efezino Great Uzezi</p>
+      <p>Building from Nigeria · Learning in public</p>
     </div>
+  </footer>
 
-  </div>
-
-</section>
-
-
-<!-- ======================================
-     GOALS
-======================================= -->
-
-<section>
-
-  <div class="wrap">
-
-    <h2>
-      Where I'm going
-    </h2>
-
-    <p class="section-intro">
-
-      I'm thinking beyond one website or one project.
-      Every project is another step toward becoming a
-      stronger developer and product builder.
-
-    </p>
-
-    <div class="goals-grid">
-
-      <div class="goal">
-
-        <h3>
-          🚀 Build useful products
-        </h3>
-
-        <p>
-          Turn ideas into applications that solve
-          genuine problems rather than stopping at
-          tutorials.
-        </p>
-
-      </div>
-
-
-      <div class="goal">
-
-        <h3>
-          🤖 Grow in AI
-        </h3>
-
-        <p>
-          Learn how AI works and become better at building
-          practical AI-powered applications.
-        </p>
-
-      </div>
-
-
-      <div class="goal">
-
-        <h3>
-          💻 Become a stronger developer
-        </h3>
-
-        <p>
-          Improve my programming fundamentals, software
-          engineering knowledge and debugging ability.
-        </p>
-
-      </div>
-
-
-      <div class="goal">
-
-        <h3>
-          🏆 Take part in competitions
-        </h3>
-
-        <p>
-          Participate in hackathons and coding
-          competitions where I can learn through solving
-          real problems.
-        </p>
-
-      </div>
-
-
-      <div class="goal">
-
-        <h3>
-          🎓 Help students
-        </h3>
-
-        <p>
-          Explore how technology and AI can make learning
-          more accessible and interactive.
-        </p>
-
-      </div>
-
-
-      <div class="goal">
-
-        <h3>
-          🌍 Build from Nigeria
-        </h3>
-
-        <p>
-          Continue learning and creating technology from
-          Nigeria with the ambition to build products that
-          can reach people anywhere.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-    <!-- ======================================
-     PHILOSOPHY
-======================================= -->
-
-<section class="philosophy">
-
-  <div class="wrap">
-
-    <div class="philosophy-label">
-      My approach
-    </div>
-
-    <div class="quote">
-
-      Learn.
-
-      <span class="gold">
-        Build.
-      </span>
-
-      Break.
-
-      <span class="teal">
-        Debug.
-      </span>
-
-      Improve.
-
-      <span class="gold">
-        Ship.
-      </span>
-
-    </div>
-
-    <p class="philosophy-note">
-
-      I don't expect every project to be perfect.
-      I expect every project to teach me something.
-
-    </p>
-
-  </div>
-
-</section>
-
-
-<!-- ======================================
-     CONTACT
-======================================= -->
-
-<section id="contact">
-
-  <div class="wrap">
-
-    <div class="contact-box">
-
-      <h2>
-        Let's connect.
-      </h2>
-
-      <p>
-
-        I'm interested in connecting with developers,
-        builders, students, mentors, collaborators and
-        people interested in technology and what I'm
-        building.
-
-      </p>
-
-      <div class="cta-row">
-
-        <a
-          class="btn primary"
-          href="mailto:efezinogreat001@gmail.com"
-        >
-          Email me
-        </a>
-
-        <a
-          class="btn ghost"
-          href="https://t.me/Efezinouzezigreat"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Telegram
-        </a>
-
-        <a
-          class="btn ghost"
-          href="https://github.com/Efezinocode"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-
-        <a
-          class="btn ghost"
-          href="https://www.linkedin.com/in/efezino-uzezi-great-41a926421"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-
-      </div>
-
-
-      <div class="contact-info">
-
-        <div class="contact-item">
-
-          <span class="label">
-            Email
-          </span>
-
-          <a
-            href="mailto:efezinogreat001@gmail.com"
-          >
-            efezinogreat001@gmail.com
-          </a>
-
-        </div>
-
-
-        <div class="contact-item">
-
-          <span class="label">
-            Telegram
-          </span>
-
-          <a
-            href="https://t.me/Efezinouzezigreat"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @Efezinouzezigreat
-          </a>
-
-        </div>
-
-
-        <div class="contact-item">
-
-          <span class="label">
-            LinkedIn
-          </span>
-
-          <a
-            href="https://www.linkedin.com/in/efezino-uzezi-great-41a926421"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Efezino Uzezi Great
-          </a>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-</main>
-
-
-<!-- ========================================
-     FOOTER
-========================================= -->
-
-<footer>
-
-  <div class="wrap">
-
-    <div class="foot-row">
-
-      <span>
-        © <span id="year"></span>
-        Efezino Great Uzezi 
-      </span>
-
-      <span>
-        Python Developer • AI Builder • Founder of
-        PassSabi AI
-      </span>
-
-      <div class="footer-links">
-
-        <a
-          href="https://github.com/Efezinocode"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-
-        <a
-          href="https://passsabi-ai.vercel.app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          PassSabi AI
-        </a>
-
-        <a
-          href="mailto:efezinogreat001@gmail.com"
-        >
-          Email
-        </a>
-
-        <a
-          href="https://t.me/Efezinouzezigreat"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Telegram
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/efezino-great-uzezi-41a926421/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</footer>
-
-
-<!-- ========================================
-     JAVASCRIPT
-========================================= -->
-
-<script>
-
-  /*
-    Automatically updates the copyright year.
-  */
-
-  document.getElementById("year").textContent =
-    new Date().getFullYear();
-
-
-  /*
-    Smooth internal navigation.
-  */
-
-  document.querySelectorAll(
-    'a[href^="#"]'
-  ).forEach(link => {
-
-    link.addEventListener(
-      "click",
-      function(event) {
-
-        const id =
-          this.getAttribute("href");
-
-        if (
-          !id ||
-          id === "#"
-        ) {
-          return;
-        }
-
-        const target =
-          document.querySelector(id);
-
-        if (!target) {
-          return;
-        }
-
-        event.preventDefault();
-
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
-        });
-
-      }
-    );
-
-  });
-
-</script>
-
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>
-       
+
