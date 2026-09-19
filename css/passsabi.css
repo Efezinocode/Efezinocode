@@ -101,8 +101,7 @@
 
 .showcase-card img {
   width: 100%;
-  aspect-ratio: 16 / 10;
-  object-fit: cover;
+  height: auto;
   border-radius: 15px;
   transition: transform 600ms var(--ease);
 }
