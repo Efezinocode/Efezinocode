@@ -1,0 +1,18 @@
+.site-footer {
+  padding-block: 34px 48px;
+}
+
+.footer-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 24px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+
+.footer-inner p {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.66rem;
+}
