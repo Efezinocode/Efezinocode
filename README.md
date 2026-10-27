@@ -4,7 +4,7 @@
 <h1 align="center">Hi, I'm Efezino Great Uzezi 👋</h1>
 
 <p align="center">
-  <strong>Python Developer • AI Builder • Founder of PassSabi AI • Student Developer 🇳🇬</strong>
+  <strong>Python Developer • AI Builder • Founder of PassSabi AI • Builder of Sabi Demand • Student Developer 🇳🇬</strong>
 </p>
 
 <p align="center">
@@ -69,6 +69,40 @@ And I'm still learning.
 
 ---
 
+## 🛍️ Sabi Demand
+
+**Sabi Demand** is an AI-powered market-demand and business-opportunity research tool I’m building for small sellers and people who want to start a business.
+
+### 💡 What gave me the idea?
+
+After starting PassSabi AI, I began thinking about another everyday problem: people want to make money or start a business, but choosing **what to sell, where to sell it, how much to charge, and how to understand the competition** can be difficult.
+
+I wanted to build something that could help people begin with their **budget and location**, then organize useful market research into a clearer starting point for making business decisions.
+
+### 🧱 How I built it
+
+I followed the same approach I used for PassSabi AI: start with a real problem, turn the idea into a web product, connect the pieces, test what works, and keep improving it.
+
+- **Started with the user’s situation:** budget and location help give the research a practical context.
+- **Planned the research around real business questions:** possible products to sell, demand signals, price ranges, competitors, suppliers, and sales channels.
+- **Built and connected the app:** I worked through the web interface, AI-powered research flow, backend features, and deployment workflow using tools including GitHub, Supabase, and Vercel.
+- **Tested and improved it:** I’ve been refining the interface and the steps that turn research into a report. Making that process simpler and making the reports more reliable are still works in progress.
+- **Learned by debugging:** building Sabi Demand is teaching me that an AI product needs more than a prompt. It needs useful inputs, clear results, evidence-aware research, a simple user experience, and repeated testing.
+
+Sabi Demand is an evolving project. Its research is meant to support decision-making, not promise sales or guaranteed profit.
+
+🔗 **[Visit Sabi Demand](https://sabi-demand.vercel.app)**
+
+<p align="center">
+  <img src="./SABI-Demand/Icon.png" width="160" alt="Sabi Demand app icon" />
+</p>
+
+<p align="center">
+  <img src="./SABI-Demand/homepage.jpg" width="100%" alt="Sabi Demand homepage screenshot" />
+</p>
+
+---
+
 ## 💻 My Development Journey
 
 My journey isn't about pretending I already know everything.
@@ -126,6 +160,16 @@ A student-focused AI learning platform designed to make learning more interactiv
 
 ---
 
+### 🛍️ Sabi Demand
+
+An AI-powered market-demand and business-opportunity research tool for small sellers and aspiring entrepreneurs. It is designed to help people explore what to sell, where to sell it, pricing, competition, suppliers, and sales channels using their budget and location as context.
+
+**Focus:** AI-assisted market research, business-opportunity discovery, and product building
+
+🔗 **[Visit Sabi Demand](https://sabi-demand.vercel.app)**
+
+---
+
 ### 🌐 Personal Portfolio
 
 My personal developer portfolio where I showcase my projects, skills, journey, and work.
@@ -159,6 +203,7 @@ These projects gave me practical experience with:
 My long-term goals are to:
 
 - 🚀 Build PassSabi AI into a useful product
+- 🛍️ Improve Sabi Demand into a clearer, more reliable market-research tool
 - 🐍 Become a strong Python developer
 - 🌐 Become a skilled full-stack/web developer
 - 🤖 Become better at AI development
@@ -222,9 +267,9 @@ I want to combine:
 
 to create useful technology.
 
-PassSabi AI is one of the first major steps toward that vision.
+PassSabi AI and Sabi Demand are important steps toward that vision. One focuses on helping students learn; the other explores how AI can help people research business opportunities.
 
-There will be many more projects after it.
+There will be many more projects after them.
 
 ---
 
@@ -233,6 +278,7 @@ There will be many more projects after it.
 - 🌐 **Portfolio:** https://uzezigreatefezino.vercel.app/
 - 💻 **GitHub:** https://github.com/Efezinocode
 - 🎓 **PassSabi AI:** https://passsabi.vercel.app
+- 🛍️ **Sabi Demand:** https://sabi-demand.vercel.app
 - 🚀 **LinkedIn:** https://www.linkedin.com/in/efezino-great-uzezi-41a926421/
 
 ---
@@ -241,8 +287,8 @@ There will be many more projects after it.
 
 **Name:** Efezino Great Uzezi 
 **Focus:** Python Development, AI, Web Development & Product Building  
-**Project:** PassSabi AI  
-**Role:** Founder & Developer  
+**Projects:** PassSabi AI, Sabi Demand  
+**Role:** Student Developer & Product Builder  
 **Location:** Nigeria 🇳🇬
 
 ---
@@ -250,7 +296,7 @@ There will be many more projects after it.
 <p align="center">
   <strong>Efezino Great Uzezi</strong>
   <br>
-  Python Developer • AI developer • Founder of PassSabi AI
+  Python Developer • AI Builder • Founder of PassSabi AI • Builder of Sabi Demand
 </p>
 
 <p align="center">
