@@ -43,6 +43,19 @@ The idea is simple:
 
 I'm building PassSabi AI to help students understand difficult concepts, ask questions, learn interactively, and use modern AI technology as part of their education.
 
+### 🤝 Building the PassSabi Student Community
+
+I'm also building a community experience around the tutor, so students can learn from one another instead of studying alone. The current community features include:
+
+- **Student discussions and Q&A** — ask subject questions, contribute explanations, and reply to classmates.
+- **Helpful and accepted answers** — make useful explanations easier to recognise.
+- **Student profiles and following** — discover and follow other learners.
+- **Contribution-based reputation** — recognise useful help rather than popularity alone.
+- **Weekly and all-time leaderboards** — celebrate consistent, helpful participation.
+- **Safety controls** — opt-in participation, report/block tools, and no private messaging.
+
+The community is part of the wider PassSabi learning experience alongside AI tutoring, exam practice, and study planning. It is still evolving, and I continue to improve it through testing and feedback.
+
 Building PassSabi has pushed me far beyond basic programming.
 
 I've had to learn about:
