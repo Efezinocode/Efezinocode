@@ -21,7 +21,7 @@ My two main projects are **PassSabi AI** and **Sabi Demand**.
 A student-focused AI learning assistant designed to help learners ask questions, understand difficult topics, and prepare for school and external examinations.
 
 - **Live application:** [passsabi-ai.vercel.app](https://passsabi-ai.vercel.app/)
-- **Public repository:** [Efezinocode/PassSabi](https://github.com/Efezinocode/PassSabi)
+- **Source code:** The actively developed application source is maintained in a private repository; the live demo and public case study are available above.
 - **Portfolio case study:** [How I built PassSabi AI](https://uzezigreatefezino.vercel.app/passsabi.html)
 
 The product is continually being improved. Its public case study describes the project journey and current direction.
